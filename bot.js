@@ -1,5 +1,5 @@
 var bot = require('dogechat-bot');
-bot.connect("toasterbot", "ToasterBot0192", function() {
+bot.connect("toasterbot", "botpasswordhere", function() {
     bot.joinRoom("toasterbot");
     bot.chat("Hello Shibes!", "toasterbot");
 });
